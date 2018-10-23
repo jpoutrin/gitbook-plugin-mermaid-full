@@ -16,7 +16,7 @@ require(["gitbook", "jquery"], function (gitbook, $) {
     });
 
     gitbook.events.bind("page.change", function () {
-        $('code.lang-graph').each(function (index, element) {
+        $('code.lang-mermaid').each(function (index, element) {
             var $element = $(element);
             var code = $element.text();
 
